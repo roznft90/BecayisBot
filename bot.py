@@ -3,7 +3,7 @@ import sqlite3
 from datetime import datetime, timedelta
 
 # Bot tokeni buraya yapıştır
-TOKEN = "8036133277:AAH5Te359TQjFITqGMrUKUiX7Mbw_S0b4"
+TOKEN = "8036133277:AAH5Te359TQjFITqGMrUKUiX7M5bw_S0ub4"
 bot = telebot.TeleBot(TOKEN)
 
 # Veritabanı bağlantısı
@@ -65,3 +65,4 @@ def ilan_handler(message):
 # Botu çalıştır
 print("BecayisBot aktif!...")
 bot.polling(none_stop=True)
+
